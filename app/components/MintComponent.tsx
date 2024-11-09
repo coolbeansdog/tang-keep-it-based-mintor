@@ -7,15 +7,17 @@ import {
   NFTAssetCost, 
   NFTMintButton, 
 } from '@coinbase/onchainkit/nft/mint'; 
+
  
  export default function MintComponent() {
   return (
 <NFTMintCard 
-  contractAddress='0xed2f34043387783b2727ff2799a46ce3ae1a34d2' 
-  tokenId='2'
+  contractAddress='0x5BaAeCa6eCD5583e8eB409ad5Cd7E0F36E78781e'
+  tokenId='0'
+
 > 
   <NFTCreator />
-  <NFTMedia />
+  <NFTMedia square={false}/>
   <NFTCollectionTitle />
   <NFTQuantitySelector />
   <NFTAssetCost />

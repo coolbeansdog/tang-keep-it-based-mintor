@@ -25,3 +25,15 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer base {
+  .base {
+    --ock-bg-default: white;
+    --ock-text-foreground: black; 
+    --ock-icon-color-primary: #aacbf2;
+    --ock-icon-color-foreground: #aacbf2;
+    --ock-icon-color-inverse:#aacbf2;
+    --ock-bg-default-active: #aacbf2;
+    --ock-bg-secondary: #aacbf2;
+  }
+}

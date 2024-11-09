@@ -2,7 +2,6 @@
 
 import Header from './components/Header';
 import Footer from './components/Footer';
-import NFTComponents from './components/NFTComponents';
 import MintComponent from './components/MintComponent';
 export default function Home() {
   return (
@@ -13,21 +12,16 @@ export default function Home() {
 
       {/* Main content */}
       <div className="flex flex-col items-center justify-center p-12">
-        <h1 className="text-4xl font-bold">Based Moments</h1>
+        <h1 className="text-4xl font-bold">Tang Cat</h1>
         <p className="mt-4 text-lg text-slate-500">
-          Based Moments is a collection of moments that have shaped the history of Base.
+        This is the complementary PFP NFT collection for the Base meme coin, $TANG, which is based on a cat with a deformed paw and has over 300k followers across social media platforms (IG: evil_tangyuan412).
         </p>
       </div>
 
       <div className="flex flex-col items-center p-12">
           <MintComponent />
       </div>
-
-      {/* Mint components */}
-      <div className="flex min-h-screen flex-col items-center">
-          <NFTComponents />
-      </div>
-
+      
       {/* Footer */}
       <Footer />
     </div>
