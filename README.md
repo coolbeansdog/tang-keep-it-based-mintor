@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # OnchainKit Mint Component Demo
 
 A web application showcasing the OnchainKit [Mint Component](https://onchainkit.xyz/nft/nft).
@@ -78,3 +79,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+=======
+# tang-mintor
+>>>>>>> 863f370123af3e03a75c24872df488e767979db5
