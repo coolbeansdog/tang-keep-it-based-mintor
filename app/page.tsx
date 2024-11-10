@@ -3,6 +3,7 @@
 import Header from './components/Header';
 import Footer from './components/Footer';
 import MintComponent from './components/MintComponent';
+
 export default function Home() {
   return (
 
@@ -10,18 +11,25 @@ export default function Home() {
       {/* Header */}
       <Header />
 
-      {/* Main content */}
-      <div className="flex flex-col items-center justify-center p-12">
-        <h1 className="text-4xl font-bold">Tang Cat</h1>
-        <p className="mt-4 text-lg text-slate-500">
-        This is the complementary PFP NFT collection for the Base meme coin, $TANG, which is based on a cat with a deformed paw and has over 300k followers across social media platforms (IG: evil_tangyuan412).
-        </p>
-      </div>
+        {/* Main content */}
+    <div className="flex flex-col items-center justify-center p-12">
+      <h1 className="text-3xl md:text-5xl font-bold text-center">
+        TANG CAT 
+        <br />
+        <hr className="my-2 border-black w-1/2 mx-auto" /> {/* Adjust width to center on all devices */}
+        <span className="block text-3xl md:text-5xl">汤 猫</span> {/* Removed extra spaces and used block */}
+      </h1>
+    </div>
+    
 
-      <div className="flex flex-col items-center p-12">
-          <MintComponent />
-      </div>
-      
+    <div className="flex flex-col items-center p-12">
+      <MintComponent />
+    </div>
+
+    <p className="font-raleway mt-4 text-lg text-black text-center">
+      A free mint and homage to the Base ecosystem from the Tang Cat team. Let’s knock it out of the park!
+    </p>
+
       {/* Footer */}
       <Footer />
     </div>

@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
 
 :root {
   --background: #ffffff;
@@ -17,7 +21,18 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  :root
+  .default-light,
+  .default-dark, 
+  .base,
+  .cyberpunk, 
+  .hacker {
+    --ock-font-family: 'Raleway';
+  }
 }
 
 @layer utilities {
@@ -34,6 +49,16 @@ body {
     --ock-icon-color-foreground: #aacbf2;
     --ock-icon-color-inverse:#aacbf2;
     --ock-bg-default-active: #aacbf2;
-    --ock-bg-secondary: #aacbf2;
+    --ock-bg-secondary    : #aacbf2;
+    --ock-bg-default-hover: #aacbf2;
+    --ock-bg-primary-hover: #aacbf2;
+    --ock-bg-secondary-hover: #aacbf2;
+    --ock-bg-alternate-hover: #aacbf2;
+    --ock-bg-alternate: #aacbf2;
+    --ock-bg-secondary-active: #aacbf2;
+    --ock-icon-color-primary: #ffff;
+    --ock-icon-color-foreground: black;
+    --ock-bg-primary: black;
+    --ock-font-family: 'Raleway';
   }
 }

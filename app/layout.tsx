@@ -4,8 +4,8 @@ import './globals.css';
 import { Providers } from './providers';
 
 export const metadata: Metadata = {
-  title: 'Based Mints',
-  description: 'Iconomic Moments is a collection of moments that have shaped the history of Base.',
+  title: 'Tang with "Base"ball Bat',
+  description: 'A free mint and homage to the Base ecosystem from the Tang Cat team. Let’s knock it out of the park!',
 };
 
 export default function RootLayout({
@@ -15,6 +15,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+     <head>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+            rel="stylesheet"
+          />
+        </head>
       <body className="bg-background dark">
         <Providers>{children}</Providers>
       </body>
