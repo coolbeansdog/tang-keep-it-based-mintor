@@ -16,7 +16,7 @@ import {
   className="bg-white rounded-lg shadow-lg p-4 md:p-6 border border-gray-200 hover:shadow-xl transition-shadow duration-300 ease-in-out w-full sm:w-3/4 md:w-1/2 lg:w-1/3 xl:w-1/4 mx-auto"
 >
   <NFTCreator />
-  <NFTMedia square={false} />
+  <NFTMedia square={true} />
   
   <NFTCollectionTitle className="text-[#000] font-bold text-lg md:text-xl text-center mt-2"/>
   <NFTQuantitySelector className="text-center mt-2" />
