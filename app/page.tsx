@@ -27,7 +27,7 @@ export default function Home() {
     </div>
 
     <p className="font-raleway mt-4 text-lg text-black text-center">
-      A free mint and homage to the Base ecosystem from the Tang Cat team. Let’s knock it out of the park!
+      The Official $TANG Anthem created by @CryptoJosh1000x!
     </p>
 
       {/* Footer */}

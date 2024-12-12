@@ -4,8 +4,8 @@ import './globals.css';
 import { Providers } from './providers';
 
 export const metadata: Metadata = {
-  title: 'Tang with "Base"ball Bat',
-  description: 'A free mint and homage to the Base ecosystem from the Tang Cat team. Let’s knock it out of the park!',
+  title: 'Keep It Based',
+  description: 'The Official $TANG Anthem.',
 };
 
 export default function RootLayout({
@@ -20,7 +20,7 @@ export default function RootLayout({
             href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
             rel="stylesheet"
           />
-        </head>
+        </head> 
       <body className="bg-background dark">
         <Providers>{children}</Providers>
       </body>
